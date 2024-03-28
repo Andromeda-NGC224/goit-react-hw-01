@@ -1,0 +1,32 @@
+.container {
+  width: 150px;
+  height: 220px;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+}
+
+.photo {
+  width: 100px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 28px;
+}
+
+.online {
+  color: green;
+}
+.offline {
+  color: orangered;
+}
