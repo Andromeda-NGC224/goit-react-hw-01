@@ -53,16 +53,9 @@
   border-right: 4px solid grey;
   gap: 8px;
 }
-.listItemLike {
-  display: flex;
-  flex-direction: column;
-  border-top: 4px solid grey;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(209, 209, 209);
-  width: 166px;
-  gap: 8px;
+.listItem:last-child {
+  border-right: none;
 }
-.views {
+.number {
   font-weight: bold;
 }
